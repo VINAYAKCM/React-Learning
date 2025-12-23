@@ -1,0 +1,33 @@
+body{
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+
+.state1{
+  border-radius: 12px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+}
+
+button{
+  text-align: center;
+  border-radius: 12px;
+  border: none;
+  margin: 0;
+  background-color: black;
+  padding: 20px;
+  color: antiquewhite;
+  font-family: Inter, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+
+  transition: transform 150s ease-out;
+}
+
+button:active{
+  transform: scale(0.97);
+}
