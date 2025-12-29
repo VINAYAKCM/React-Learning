@@ -1,3 +1,5 @@
+{/* Changes button from Yes to No and Vice versa */}
+
 import React from "react";
 
 export default function App() {
@@ -34,7 +36,11 @@ export default function App() {
     return (
         <main className="state3">
             <h1 className="title">Do I feel like going out tonight?</h1>
-            <button className="value" onClick={handleClick}>{isGoingOut ? "Yes" : "No"}</button>
+            <button 
+                className="value" 
+                onClick={handleClick}>
+                {isGoingOut ? "Yes" : "No"}
+            </button>
         </main>
     )
 }

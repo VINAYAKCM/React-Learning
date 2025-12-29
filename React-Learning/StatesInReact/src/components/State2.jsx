@@ -1,3 +1,5 @@
+{/* Visual Counter component where you can increment and decrement a count */}
+
 import React from "react";
 
 export default function State2() {
