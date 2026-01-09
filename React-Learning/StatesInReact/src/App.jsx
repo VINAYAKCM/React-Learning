@@ -4,6 +4,7 @@ import './App.css'
 //import State3 from './components/State3.jsx'
 //import State4 from './components/State4.jsx'
 import ObjSave from './components/ObjSave.jsx'
+//import State2 from './components/State2.jsx'
 
 function App() {
 
