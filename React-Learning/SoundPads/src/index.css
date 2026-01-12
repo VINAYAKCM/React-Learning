@@ -10,6 +10,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
 
 .pad-container {
@@ -24,6 +25,12 @@ button {
     width: 100px;
     border: 3px solid white;
     border-radius: 5px;
-    cursor: pointer;
-    
+    cursor: pointer;   
+    opacity: 0.1;
+    transition: transform 150ms ease-out;
+}
+
+button.on {
+    transform: scale(0.97);
+    opacity: 1;
 }
